@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "penisesp",
+  "version": "0.1.0",
+  "name": "PenisESP",
+  "description": "Renders Penis",
+  "authors": [
+    "SagXD"
+  ],
+  "contact": {
+    "YouTube": "https://youtube.com/@sagxd"
+  },
+  "icon": "assets/icon/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "me.sag.penis.esp.Addon"
+    ]
+  },
+  "custom": {
+    "meteor-client:color": "53,103,209"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=1.19.3",
+    "meteor-client": "*"
+  }
+}
